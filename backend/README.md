@@ -1,6 +1,6 @@
 # UserManagementSystem Backend API (Run Back end first in http://localhost:3000)
 
-Start a UserManagementSystem API quickly using Node, Express & Postgres.
+Start UserManagementSystem API quickly using Node, Express & Postgres.
 
 Serves four requests (get, post, put, delete) from one page with a separate function for each.
 
@@ -42,7 +42,7 @@ services start postgresql
 
 **5. Create a database**
 
-Change the database name to whatever you would like to name the database. Be sure to also change the database name in server.js to whatever you name the database.
+Change the database name to whatever you would like to name the database. Be sure to also change the database name and configurations in server.js.
 
 ```
 createdb ums
@@ -51,7 +51,6 @@ createdb ums
 **6. Create a database table**
 
 Open pgAdmin (Download and install Postgres SQL from https://www.postgresql.org/download/) and run the following query.
-Update database configurations in server.js
 
 ```
 CREATE TABLE users (
@@ -88,7 +87,7 @@ INSERT INTO users_groups (userid, groupid, added) VALUES (1,1, CURRENT_DATE)
 ```
 
 ## UserManagementSystem Frontend
-View the [repository for the frontend](https://github.com/vjustinjohn/UserManagementSystem/frontend) that goes along with this API. It uses React and Bootstrap to display a responsive data table.
+View the [repository for the frontend](https://github.com/vjustinjohn/UserManagementSystem/tree/master/frontend) that goes along with this API. It uses React and Bootstrap to display a responsive data table.
 
 ## Further Information
 
