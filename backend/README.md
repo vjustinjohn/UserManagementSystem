@@ -1,4 +1,4 @@
-# UserManagementSystem Backend API (Run Back end first in http://localhost:3000)
+# UserManagementSystem Backend API (Run Backend first in http://localhost:3000)
 
 Start UserManagementSystem API quickly using Node, Express & Postgres.
 
