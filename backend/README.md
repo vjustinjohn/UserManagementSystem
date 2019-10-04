@@ -44,6 +44,13 @@ services start postgresql
 
 Change the database name to whatever you would like to name the database. Be sure to also change the database name and configurations in server.js (line number 17-20).
 
+Current Configurations
+
+host : 'localhost',
+user : 'postgres',
+password : 'work4UMS'
+database : 'ums'
+
 ```
 createdb ums
 ```
