@@ -42,7 +42,7 @@ services start postgresql
 
 **5. Create a database**
 
-Change the database name to whatever you would like to name the database. Be sure to also change the database name and configurations in server.js.
+Change the database name to whatever you would like to name the database. Be sure to also change the database name and configurations in server.js (line number 17-20).
 
 ```
 createdb ums
