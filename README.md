@@ -1,5 +1,7 @@
 # UserManagementSystem
 
+Application contains 2 part, backend and frontend (seperate node js applications). backend app should be in running status (port - 3000) before running front end.
+
 # Stories/Features
 
 Here are some basic features that exist in most user management systems:
