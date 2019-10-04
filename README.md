@@ -1,7 +1,4 @@
 # UserManagementSystem
-User Management System
-
-User Management System is an applications with the following functionalities
 
 # Stories/Features
 
