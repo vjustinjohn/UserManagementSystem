@@ -1,6 +1,6 @@
 # UserManagementSystem
 
-Application contains 2 part, backend and frontend (seperate node js applications). backend app should be in running status (port - 3000) before running front end.
+Application contains 2 parts, backend and frontend (seperate node js applications). backend app should be in running status (port - 3000) before running front end.
 
 # Stories/Features
 
