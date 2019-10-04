@@ -64,7 +64,7 @@ class UserAddEditForm extends React.Component {
         groupError:null
       });
       return false;
-    } else if(this.state.group === 0 && this.props.actionMode === 'add') {
+    } else if(!this.state.group && this.props.actionMode === 'add') {
       this.setState({
         lastError: null,
         firstError: null,
