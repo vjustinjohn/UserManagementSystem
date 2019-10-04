@@ -1,6 +1,6 @@
 # UserManagementSystem Frontend
 
-This is the React frontend that goes with the [UserManagementSystem API backend](https://github.com/vjustinjohn/UserManagementSystem/backend).
+This is the React frontend that goes with the [UserManagementSystem API backend](https://github.com/vjustinjohn/UserManagementSystem/tree/master/backend).
 
 It uses Bootstrap styles and reactstrap.
 
@@ -30,4 +30,4 @@ npm start
 
 ## Notes
 
-Run frontend after starting backend, backend should run first in port 3000 and then front end in 3001
+Run frontend after starting backend, backend should run first in port 3000 and probably frontend in 3001
